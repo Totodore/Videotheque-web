@@ -1,0 +1,30 @@
+#wrapper_tag {
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: auto;
+}
+
+.title_wrapper {
+    width: 100%;
+    background-color: rgb(91, 159, 174);
+    display: flex;
+    margin-top: 50px;
+    align-content: space-around;
+    box-shadow: white 0px 7px 8px -8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.title {
+    font-family: itty;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(30, 66, 66);    
+}
+
+/* The rest of the css for the page is in saved.css */

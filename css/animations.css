@@ -1,0 +1,419 @@
+@keyframes slide-right-fade-in {   /*fonction d'animation*/
+    from {    /*style à 0%*/
+        opacity: 0;    /* transparent */
+        max-height: 0;
+        transform: translate(-80px, 0px);    /*Positionné 40px en dessous de sa position initiale*/
+    }
+    to {  /*style à 100*/
+        opacity: 1;     /* Opaque */
+        max-height: 100%;
+        transform: translate(0px, 0px); /*On le repositionne à sa position initiale*/
+    }
+}
+@-moz-keyframes slide-right-fade-in {  /*Meme fonction mais pour le navigateur mozilla si celui si ne prend pas la fonction validée par la W3C */
+    0% {
+        opacity: 0;
+        max-height: 0;
+        -moz-transform: translate(-80px, 0px);
+    }
+    100% {
+        opacity: 1;
+        max-height: 100%;
+        -moz-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes slide-right-fade-in {   /*Idem mais pour le moteur webkit : Chrome...*/
+    0% {
+        opacity: 0;
+        max-height: 0;
+        -webkit-transform: translate(80px, 0px);
+    }
+    100% {
+        opacity: 1;
+        max-height: 100%;
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@keyframes slide-left-fade-in__ {   /*fonction d'animation*/
+    0% {    /*style à 0%*/
+        opacity: 0;    /* transparent */    
+        max-height: 0;
+        transform: translate(80px, 0px);    /*Positionné 40px en dessous de sa position initiale*/
+    }
+    60% {
+        transform: translate(-20px, 0px);
+    }
+    100% {  /*style à 100*/
+        opacity: 1;     /* Opaque */
+        max-height: 100%;
+        transform: translate(0px, 0px); /*On le repositionne à sa position initiale*/
+    }
+}
+@-moz-keyframes slide-left-fade-in__ {  /*Meme fonction mais pour le navigateur mozilla si celui si ne prend pas la fonction validée par la W3C */
+    0% {
+        opacity: 0;
+        max-height: 0;
+        -moz-transform: translate(80px, 0px);
+    }
+    60% {
+        -moz-transform: translate(-20px, 0px);
+    }
+    100% {
+        opacity: 1;
+        max-height: 100%;
+        -moz-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes slide-left-fade-in__ {   /*Idem mais pour le moteur webkit : Chrome...*/
+    0% {
+        opacity: 0;
+        max-height: 0;
+        -webkit-transform: translate(80px, 00px);
+    }
+    60% {
+        -webkit-transform: translate(-20px, 0px);
+    }
+    100% {
+        opacity: 1;
+        max-height: 100%;
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@keyframes slide-right-fade-in__ {   /*fonction d'animation*/
+    0% {    /*style à 0%*/
+        opacity: 0;    /* transparent */
+        max-height: 0;
+        transform: translate(-80px, 0px);    /*Positionné 40px en dessous de sa position initiale*/
+    }
+    60% {
+        transform: translate(20px, 0px);
+    }
+    100% {  /*style à 100*/
+        opacity: 1;     /* Opaque */
+        max-height: 100%;
+        transform: translate(0px, 0px); /*On le repositionne à sa position initiale*/
+    }
+}
+@-moz-keyframes slide-right-fade-in__ {  /*Meme fonction mais pour le navigateur mozilla si celui si ne prend pas la fonction validée par la W3C */
+    0% {
+        opacity: 0;
+        max-height: 0;
+        -moz-transform: translate(-80px, 0px);
+    }
+    60% {
+        -moz-transform: translate(20px, 0px);
+    }
+    100% {
+        opacity: 1;
+        max-height: 100%;
+        -moz-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes slide-right-fade-in__ {   /*Idem mais pour le moteur webkit : Chrome...*/
+    0% {
+        opacity: 0;
+        max-height: 0;
+        -webkit-transform: translate(80px, 0px);
+    }
+    60% {
+        -webkit-transform: translate(20px, 0px);
+    }
+    100% {
+        opacity: 1;
+        max-height: 100%;
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@keyframes slide-up-fade-in {   /*fonction d'animation*/
+    0% {    /*style à 0%*/
+        opacity: 0;    /* transparent */
+        max-height: 0;
+        transform: translate(0px, 40px);    /*Positionné 40px en dessous de sa position initiale*/
+    }
+    100% {  /*style à 100*/
+        opacity: 1;     /* Opaque */
+        max-height: 100%;
+        transform: translate(0px, 0px); /*On le repositionne à sa position initiale*/
+    }
+}
+@-moz-keyframes slide-up-fade-in {  /*Meme fonction mais pour le navigateur mozilla si celui si ne prend pas la fonction validée par la W3C */
+    0% {
+        opacity: 0;
+        max-height: 0;
+        -moz-transform: translate(0px, 40px);
+    }
+
+    100% {
+        opacity: 1;
+        max-height: 100%;
+        -moz-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes slide-up-fade-in {   /*Idem mais pour le moteur webkit : Chrome...*/
+    0% {
+        opacity: 0;
+        max-height: 0;
+        transform: translate(0px, 40px);
+    }
+
+    100% {
+        opacity: 1;
+        max-height: 100%;
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes slide-down-fade-in {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+    to {
+        opacity: 1;
+        max-height: 100%;
+    }
+}
+@-moz-keyframes slide-down-fade-in {
+    from {
+        opacity: 0;
+        max-height: 0%;
+    }
+    to {
+        opacity: 1;
+        max-height: 100%;
+    }
+}
+@-webkit-keyframes slide-down-fade-in {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+    to {
+        opacity: 1;
+        max-height: 100%;
+    }
+}
+@keyframes zoomIn {
+    from { 
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3) translate(-50%, -50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+@-webkit-keyframes zoomOut {
+    from {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  
+    to {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3) translate(-50%, -50%);
+      transform: scale3d(0.3, 0.3, 0.3) translate(-50%, -50%);
+      display: none;
+    }
+  }
+  
+  @keyframes zoomOut {
+    from {
+      opacity: 1;
+      transform: translate(-50%, -50%)
+    }
+  
+    to {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3) translate(-50%, -50%);
+      transform: scale3d(0.3, 0.3, 0.3) translate(-50%, -50%);
+    }  
+}
+@keyframes outside {
+    from {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0.7, 0.7);
+        opacity: 0.7;
+    }
+}
+@-moz-keyframes outside {
+    from {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0.7, 0.7);
+        opacity: 0.7;
+    }
+}
+@-webkit-keyframes outside {
+    from {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0.7, 0.7);
+        opacity: 0.7;
+    }
+}
+
+@keyframes image_loading {
+    0% {
+        background-position: 0px 0;
+      }
+      100% {
+        background-position: 100em 0;
+      }
+}
+@-moz-keyframes image_loading {
+      0% {
+    background-position: 0px 0;
+  }
+  100% {
+    background-position: 100em 0;
+  }
+}
+.zoomOut {
+    animation: zoomOut ease 400ms;    /*Nom de la fonction d'animation, type d'animation (rapide puis lent), durée */
+    animation-iteration-count: 1;   /*Nombre d'execution de la fonction*/
+    transform-origin: center;       /*On indique que toute le point d'origine de la fonction transform est le centre*/
+    animation-fill-mode: forwards;  /*On indique aux elements concernés qu'ils doivent garder le style indiqués par les fonctions d'animations*/
+    
+    -webkit-animation: zoomOut ease 400ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;          /*Même chose mais pour les navigateur utilisant le moteur webkit et ne prenant pas encore en charge la fonction validée par le w3c */
+    -webkit-animation-fill-mode: forwards;
+    
+    -moz-animation: zoomOut ease 400ms;
+    -moz-animation-iteration-count: 1;  /*Idem mais pour le moteur de mozilla*/
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode: forwards;
+
+    opacity: 1;
+}
+  
+.zoomIn {
+    animation: zoomIn ease 400ms;    /*Nom de la fonction d'animation, type d'animation (rapide puis lent), durée */
+    animation-iteration-count: 1;   /*Nombre d'execution de la fonction*/
+    transform-origin: center;       /*On indique que toute le point d'origine de la fonction transform est le centre*/
+    animation-fill-mode: forwards;  /*On indique aux elements concernés qu'ils doivent garder le style indiqués par les fonctions d'animations*/
+    
+    -webkit-animation: zoomIn ease 400ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;          /*Même chose mais pour les navigateur utilisant le moteur webkit et ne prenant pas encore en charge la fonction validée par le w3c */
+    -webkit-animation-fill-mode: forwards;
+    
+    -moz-animation: zoomIn ease 400ms;
+    -moz-animation-iteration-count: 1;  /*Idem mais pour le moteur de mozilla*/
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode: forwards;
+
+    opacity: 0;
+}
+.animation_menu_toRight {
+    animation: slide-right-fade-in ease 1s;    /*Nom de la fonction d'animation, type d'animation (rapide puis lent), durée */
+    animation-iteration-count: 1;   /*Nombre d'execution de la fonction*/
+    transform-origin: center;       /*On indique que toute le point d'origine de la fonction transform est le centre*/
+    animation-fill-mode: forwards;  /*On indique aux elements concernés qu'ils doivent garder le style indiqués par les fonctions d'animations*/
+    
+    -webkit-animation: slide-right-fade-in ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;          /*Même chose mais pour les navigateur utilisant le moteur webkit et ne prenant pas encore en charge la fonction validée par le w3c */
+    -webkit-animation-fill-mode: forwards;
+    
+    -moz-animation: slide-right-fade-in ease 1s;
+    -moz-animation-iteration-count: 1;  /*Idem mais pour le moteur de mozilla*/
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode: forwards;
+  
+    opacity: 0;
+    will-change: transform;
+}
+.animation_toRight {
+  animation: slide-right-fade-in__ ease 1s;    /*Nom de la fonction d'animation, type d'animation (rapide puis lent), durée */
+  animation-iteration-count: 1;   /*Nombre d'execution de la fonction*/
+  transform-origin: center;       /*On indique que toute le point d'origine de la fonction transform est le centre*/
+  animation-fill-mode: forwards;  /*On indique aux elements concernés qu'ils doivent garder le style indiqués par les fonctions d'animations*/
+  
+  -webkit-animation: slide-right-fade-in__ ease 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;          /*Même chose mais pour les navigateur utilisant le moteur webkit et ne prenant pas encore en charge la fonction validée par le w3c */
+  -webkit-animation-fill-mode: forwards;
+  
+  -moz-animation: slide-right-fade-in__ ease 1s;
+  -moz-animation-iteration-count: 1;  /*Idem mais pour le moteur de mozilla*/
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode: forwards;
+
+  opacity: 0;
+  will-change: transform;
+
+}
+.animation_toLeft {
+    animation: slide-left-fade-in__ ease 1s;    /*Nom de la fonction d'animation, type d'animation (rapide puis lent), durée */
+    animation-iteration-count: 1;   /*Nombre d'execution de la fonction*/
+    transform-origin: center;       /*On indique que toute le point d'origine de la fonction transform est le centre*/
+    animation-fill-mode: forwards;  /*On indique aux elements concernés qu'ils doivent garder le style indiqués par les fonctions d'animations*/
+    
+    -webkit-animation: slide-left-fade-in__ ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;          /*Même chose mais pour les navigateur utilisant le moteur webkit et ne prenant pas encore en charge la fonction validée par le w3c */
+    -webkit-animation-fill-mode: forwards;
+    
+    -moz-animation: slide-left-fade-in__ ease 1s;
+    -moz-animation-iteration-count: 1;  /*Idem mais pour le moteur de mozilla*/
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode: forwards;
+  
+    opacity: 0;
+    will-change: transform;
+
+}
+.animation_toUp {
+    animation: slide-up-fade-in ease 1s;    /*Nom de la fonction d'animation, type d'animation (rapide puis lent), durée */
+    animation-iteration-count: 1;   /*Nombre d'execution de la fonction*/
+    transform-origin: center;       /*On indique que toute le point d'origine de la fonction transform est le centre*/
+    animation-fill-mode: forwards;  /*On indique aux elements concernés qu'ils doivent garder le style indiqués par les fonctions d'animations*/
+    
+    -webkit-animation: slide-up-fade-in ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;          /*Même chose mais pour les navigateur utilisant le moteur webkit et ne prenant pas encore en charge la fonction validée par le w3c */
+    -webkit-animation-fill-mode: forwards;
+     
+    -moz-animation: slide-up-fade-in ease 1s;
+    -moz-animation-iteration-count: 1;  /*Idem mais pour le moteur de mozilla*/
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode: forwards;
+  
+    opacity: 0;
+    will-change: transform;
+    max-width: unset !important;
+    max-height: unset !important;
+}
+.animation_toDown {
+    animation: slide-down-fade-in ease 1s;    /*Nom de la fonction d'animation, type d'animation (rapide puis lent), durée */
+    animation-iteration-count: 1;   /*Nombre d'execution de la fonction*/
+    transform-origin: center;       /*On indique que toute le point d'origine de la fonction transform est le centre*/
+    animation-fill-mode: forwards;  /*On indique aux elements concernés qu'ils doivent garder le style indiqués par les fonctions d'animations*/
+    
+    -webkit-animation: slide-down-fade-in ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;          /*Même chose mais pour les navigateur utilisant le moteur webkit et ne prenant pas encore en charge la fonction validée par le w3c */
+    -webkit-animation-fill-mode: forwards;
+     
+    -moz-animation: slide-down-fade-in ease 1s;
+    -moz-animation-iteration-count: 1;  /*Idem mais pour le moteur de mozilla*/
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode: forwards;
+  
+    opacity: 0  ;
+    will-change: transform;
+}
+.outside {
+    animation: outside ease 1s 1 forwards;
+    -webkit-animation: outside ease 1s 1 forwards;
+    -moz-animation: outside ease 1s 1 forwards; 
+} 

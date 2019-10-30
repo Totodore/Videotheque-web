@@ -1,0 +1,173 @@
+#wrapper_account {
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: auto;
+}
+.title_wrapper_account {
+    width: 100%;
+    background-color: rgb(91, 159, 174);
+    display: flex;
+    margin-top: 50px;
+    align-content: space-around;
+    box-shadow: white 0px 7px 8px -8px;
+    height: 50px;
+}
+.title_wrapper_account h5 {
+    text-align: center;
+    display: flex;
+    color: black;
+    font-family: itty;
+    margin: auto;
+    margin-left: 50px;
+    font-size: 2em;
+}
+.displayer_account {
+    background-color: rgb(33, 55, 74);
+    position: relative;
+    z-index: -1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: white 0px 7px 16px -13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5%;
+}
+.displayer_account span {
+    font-size: 1.4em;
+    color: rgb(181, 226, 226);
+    font-family: traveling;
+    text-align: left;
+}
+.password i, .username i {
+    font-style: normal;
+    font-family: sans-serif; 
+}
+.edit_username, .edit_pass {
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 400ms;
+    padding: 4px;
+}
+.edit_username:hover, .edit_pass:hover {
+    color: rgb(99, 189, 189);
+}
+.edit_username i, .edit_pass i {
+    font-size: 25px;
+    margin-top: -5px;
+
+}
+.clean_account, .delete_account {
+    padding: 10px;
+    border: 2px solid;
+    transition: all 400ms;
+    border-radius: 10px;
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: -webkit-fit-content;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 15px;
+    box-shadow: inset rgba(255, 255, 255, 0.3) 0px 0px 6px 1px;
+}
+.clean_account {
+    border-color: rgb(63, 126, 126);
+}
+.clean_account:hover {
+    background-color: rgb(63, 126, 126);
+    color: rgb(181, 226, 226);
+}
+.delete_account {
+    color: rgb(165, 22, 22) !important;
+    border-color: rgb(165, 22, 22);
+}
+.delete_account:hover {
+    background-color: rgb(63, 126, 126);
+    color: rgb(181, 226, 226) !important;
+    border-color: rgb(63, 126, 126);
+}
+
+#modifier_wrap {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    min-height: 30%;
+    max-height: 80%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(33, 55, 74);
+    box-shadow: black 0px 0px 39px -12px;
+    overflow-y: auto;
+}
+#overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1500;
+}
+.title_modifier {
+    width: 100%;
+    background-color: rgb(91, 159, 174);
+    display: flex;
+    align-content: space-around;
+    box-shadow: black 0px 7px 8px -8px;
+    height: 50px;
+}
+.title_modifier h5 {
+    text-align: center;
+    display: flex;
+    color: black;
+    font-family: itty;
+    margin: auto;
+    margin-left: 50px;
+    font-size: 2em;
+}
+.displayer_modifier {
+    background-color: rgb(33, 55, 74);
+    position: relative;
+    z-index: -1;
+    box-shadow: black 0px 7px 16px -13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.form_account {
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.form_account input {
+    background-color: rgb(99, 189, 189);
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    transition: all 400ms;
+    color: rgb(30, 66, 66);
+}
+.form_account input[type='submit'] {
+    cursor: pointer;
+}
+.form_account input:hover, .form_account input:focus {
+    background-color: rgb(63, 126, 126);
+}
+.form_account p {
+    width: 90%;
+    font-family: traveling;
+    color: rgb(181, 226, 226);
+    font-size: 1.2em;
+    margin: auto;
+}
+@media only screen and (max-width: 500px) { 
+    .title_modifier h5 {
+        font-size: 6vw;
+        margin-left: auto;
+    }
+}

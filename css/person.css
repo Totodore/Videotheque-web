@@ -1,0 +1,73 @@
+#wrapper_person {
+    font-size: 1.4em;
+    color: rgb(181, 226, 226);
+    font-family: traveling;
+    text-align: center;
+}
+.main_person {
+    padding: 20px;
+}
+.imagePoster_person {
+    width: 400px;
+    max-width: 50%;
+    height: auto;
+    box-shadow: rgb(0, 0, 0, 0.5) 0 0 32px 5px;
+    float: left;
+    clear: both;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+.imagePoster_loader {
+    width: 400px;
+    max-width: 50%;
+    height: 40vw;
+    box-shadow: rgb(0, 0, 0, 0.5) 0 0 32px 5px;
+    float: left;
+    clear: both;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: rgb(53, 53, 53);
+    background: linear-gradient(to right, rgb(53, 53, 53) 8%, rgb(70, 70, 70) 38%, rgb(53, 53, 53) 54%);
+    background-size: 100em 100em;
+    animation: image_loading linear 1s infinite forwards;
+    -moz-animation: image_loading linear 1s infinite forwards;
+}
+.resumeWrapper_person {
+    width: auto;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+/* The css elements for the tags are in movie.css */
+
+.add_person {
+    display: inline-flex;
+    background-color: rgb(99, 189, 189);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 500ms;
+    color: whitesmoke;
+    box-shadow: black 0px 0px 16px -10px;
+}
+.add_person i {
+    font-size: 30px;
+}
+.add_person:hover {
+    background-color: rgb(63, 126, 126);
+    box-shadow: black 0px 0px 16px -5px;
+}
+@media only screen and (max-width: 500px) {
+    .pimped_tags > i {
+        opacity: 1;
+    }
+    #wrapper_movie {
+        font-size: 1.1em;
+    }
+    .tags_movie > span {
+        padding: 6px; 
+    }
+}
