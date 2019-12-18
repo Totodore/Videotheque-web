@@ -9,13 +9,13 @@
         "user": "ELARION",
         "pass": "$2y$10$Q18njIUKmUVpHsqvxSzNjecbaNyDjsOFDl4qmaQyq6fKLfsTaJhqG",
         "id": "5db852c32ab8c",
-        "mail": ""
+        "mail": "prevottheodore@gmail.com"
     },
     "5db85fb2a4eec": {
         "user": "GUILLAUME",
         "pass": "$2y$10$dQUAQodpToY9adyirzoxSOrRe8hj/SGpq0yBw7o3Rw3XyrmdjWSnK",
         "id": "5db85fb2a4eec",
-        "mail": ""
+        "mail": "guillaume.legeai@gmail.com"
     },
     "5db8c5a93770d": {
         "user": "ENVERIC",
@@ -93,7 +93,7 @@
         "user": "PASTèQUE",
         "pass": "$2y$10$ulkft38.1yQAwWsGx6lbgeJpIPS.PnYd2Yh9Nh0QMUg9ySfUdwIvu",
         "id": "5dc414a557048",
-        "mail": ""
+        "mail": "clement.delestre@isep.fr"
     },
     "5dc959e6c2b71": {
         "user": "NOVEMBRE",
@@ -172,5 +172,52 @@
         "pass": "$2y$10$Z2ezOe2HNfVnAX293p6//.tT6CZOdd3iJXAdTD1IJV0jHu4btWnZy",
         "id": "5de3a7b394a75",
         "mail": ""
+    },
+    "5decd32e75632": {
+        "user": "THIERRY30",
+        "pass": "$2y$10$LT.N7GZNAp.su1Zu4F2iFusi4B0XiSsdKu9JA3Bf1Z3IyCGR9jZee",
+        "id": "5decd32e75632"
+    },
+    "5defedc27b436": {
+        "user": "MAESTA",
+        "pass": "$2y$10$l0WnN346hmm8w3i90QZQ0uqkML5OMbT3B3JSKytfriVZJQqa00owO",
+        "id": "5defedc27b436",
+        "mail": "kjgs@sfr.fr"
+    },
+    "5df3803e5c96a": {
+        "user": "MARYLPAMP",
+        "pass": "$2y$10$SScBte.Q3oJbohYqQiLRwuZudmjxnOVf42Ko0Jh/epz90nku1yIjq",
+        "id": "5df3803e5c96a",
+        "mail": "mcrendal@laposte.net"
+    },
+    "5df40249f2696": {
+        "user": "BERNARD",
+        "pass": "$2y$10$3P1Q0Ev6ojDi0sU3274l0OcGkgomo5ilx6AYR5Nqn7FTJhyq6jgtK",
+        "id": "5df40249f2696",
+        "mail": "leininger.bernard217@gmail.com"
+    },
+    "5df68cf83c6fa": {
+        "user": "TITOF171",
+        "pass": "$2y$10$CxD8hZjyX0N29Zucbnb6VeWoMUQp6s6mqZ3ihbvHGbpCjd0scg0AS",
+        "id": "5df68cf83c6fa",
+        "mail": "christophe.plassier@wanadoo.fr"
+    },
+    "5df75c3bbac71": {
+        "user": "CSSERON",
+        "pass": "$2y$10$7e/Wdptj1kPLfaRGAenvc.TBz9JJyM6AxiCN3UH34N5rHa7cM3/Gu",
+        "id": "5df75c3bbac71",
+        "mail": "csseron@hotmail.com"
+    },
+    "5df8d0c0b7290": {
+        "user": "DTS.FOLBY",
+        "pass": "$2y$10$i/lqTkIMNDu2g9cww71hQeWVr6pnuz/t2X.LnWi3z0VpDb5Jl3GWi",
+        "id": "5df8d0c0b7290",
+        "mail": "yoel.realestate@gmail.com"
+    },
+    "5dfa34405ce69": {
+        "user": "TESTéé",
+        "pass": "$2y$10$/4VTyCkwrx8m2v55PkujheyWVcbEDd8B8ON7KwpQCT.t7GUYiaYeu",
+        "id": "5dfa34405ce69",
+        "mail": "theodore.prevot@isep.fr"
     }
 }

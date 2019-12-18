@@ -25,7 +25,8 @@
         $json_subs[$id] = Array(
             "user" => strtoupper($user),
             "pass" => password_hash($pass, PASSWORD_DEFAULT),
-            "id" => $id
+            "id" => $id,
+            "mail" => ""
         ); 
         file_put_contents("../json/subs.json", json_encode($json_subs));
     }
