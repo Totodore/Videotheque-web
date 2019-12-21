@@ -9,7 +9,7 @@
         "user": "ELARION",
         "pass": "$2y$10$Q18njIUKmUVpHsqvxSzNjecbaNyDjsOFDl4qmaQyq6fKLfsTaJhqG",
         "id": "5db852c32ab8c",
-        "mail": "prevottheodore@gmail.com"
+        "mail": ""
     },
     "5db85fb2a4eec": {
         "user": "GUILLAUME",
@@ -214,10 +214,34 @@
         "id": "5df8d0c0b7290",
         "mail": "yoel.realestate@gmail.com"
     },
-    "5dfa34405ce69": {
-        "user": "TESTéé",
-        "pass": "$2y$10$/4VTyCkwrx8m2v55PkujheyWVcbEDd8B8ON7KwpQCT.t7GUYiaYeu",
-        "id": "5dfa34405ce69",
+    "5dfc830e2ea3b": {
+        "user": "ZALDIAR",
+        "pass": "$2y$10$SY5bwXb2gNf4g9H1Yj41huCgBz23CGNN7Oc5Q1n7VO8OKWDpUCN2C",
+        "id": "5dfc830e2ea3b",
+        "mail": "thibaut.callot@free.fr"
+    },
+    "5dfd268905d08": {
+        "user": "AICHA",
+        "pass": "$2y$10$/v/YA.GKEtd3JiN.i0QNG.yNiMvwHiMWXlUTJrhWhCoNuRw0Bn4IK",
+        "id": "5dfd268905d08",
+        "mail": "sabrim1479@gmail.com"
+    },
+    "5dfe6b4acbfe7": {
+        "user": "ELARIO",
+        "pass": "$2y$10$JHgGgFoHkXVmEp0jdjZsruaWAagbTPxDTcSmfviclXEwiGwkQZ9k6",
+        "id": "5dfe6b4acbfe7",
         "mail": "theodore.prevot@isep.fr"
+    },
+    "5dfe6cdd0d750": {
+        "user": "ELARI",
+        "pass": "$2y$10$pusCrVYYmBCsu5LNioPtOepUe28lPnJjqIqgr/dsASiKL0nQrBIJq",
+        "id": "5dfe6cdd0d750",
+        "mail": "theodore.prevot@garageisep.com"
+    },
+    "5dfe7fd3973fc": {
+        "user": "ANGELTONO",
+        "pass": "$2y$10$fKe7JIf/Dtvdq4MtVc08CecM5aDHJdVEBdxfFmugxbfTfX77gFcIC",
+        "id": "5dfe7fd3973fc",
+        "mail": "lepitiange@hotmail.com"
     }
 }

@@ -8,15 +8,15 @@
                 return;
                 exit;
             } else {
-                echo "Le mot de passe rentré n'existe pas.";
+                echo "Le mot de passe rentré n'existe pas";
                 exit;
             }
         } else {
-            echo "Le nom d'utilisateur rentré n'existe pas.";
+            echo "Le nom d'utilisateur rentré n'existe pas";
             exit;
         }
     } else {
-        echo "Erreur lors de la tentative de connexion.";
+        echo "Erreur lors de la tentative de connexion";
         exit;
     }
 ?>
