@@ -1,8 +1,6 @@
 <?php 
 
-define("ERROR_TEXT","Erreur lors de la récupération du mail, veuillez recommencer dès que possible."); 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+define("ERROR_TEXT","Erreur lors de la récupération du mail, veuillez recommencer dès que possible"); 
 
 if (!isset($_GET["mail"], $_GET["user"], $_GET["pass"])) {
     echo ERROR_TEXT;
