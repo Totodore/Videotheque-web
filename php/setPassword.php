@@ -6,6 +6,7 @@
     if (!isset($new_password, $id))
         exit;
 
+    $subs = json_decode(file_get_contents("../json/subs.json"), true);
     $subs[$id]["pass"] = password_hash($new_password, PASSWORD_DEFAULT);
     
     file_put_contents("../json/subs.json", json_encode($subs));
